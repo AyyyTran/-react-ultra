@@ -7,7 +7,7 @@ import SignUp from './Pages/SignUp/SignUp';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './Components/ScrollToTop';
 import {Navbar, Footer} from './Components';
-
+import PageNotFound from './Pages/PageNotFound/PageNotFound';
 function App() {
   return (
     <Router>
@@ -18,7 +18,8 @@ function App() {
         <Route path='/' exact element={<Home />} />
         <Route path='/Services' element={<Services />} />
         <Route path='/Products' element={<Products />} />
-        <Route path='/SignUp' element={<SignUp />} />
+        <Route path='/Sign-up' element={<SignUp />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />
     </Router>

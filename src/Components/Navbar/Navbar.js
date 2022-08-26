@@ -58,11 +58,11 @@ const Navbar = () => {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/Sign-up'>
                     <Button primary>Sign Up</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/Sign-up'>
                     <Button fontBig primary>
                       SIGN UP
                     </Button>

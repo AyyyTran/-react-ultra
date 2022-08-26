@@ -1,9 +1,7 @@
 import React from 'react';
 import {Button} from '../../globalStyles';
-import {AiFillThunderbolt} from 'react-icons/ai';
 import {GiCrystalBars} from 'react-icons/gi';
 import {GiCutDiamond, GiRock} from 'react-icons/gi';
-import {GiFloatingCrystal} from 'react-icons/gi';
 import {IconContext} from 'react-icons/lib';
 import {
   PricingSection,
@@ -27,7 +25,7 @@ function Pricing() {
         <PricingWrapper>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/Sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
@@ -43,7 +41,7 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/Sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
@@ -59,7 +57,7 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/Sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
